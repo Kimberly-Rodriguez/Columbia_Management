@@ -1,0 +1,28 @@
+{
+  "name": "columbia_management",
+  "version": "1.0.0",
+  "description": "To manage rental listings for private owners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimberly-Rodriguez/Columbia_Management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimberly-Rodriguez/Columbia_Management/issues"
+  },
+  "homepage": "https://github.com/Kimberly-Rodriguez/Columbia_Management#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.14"
+  }
+}
