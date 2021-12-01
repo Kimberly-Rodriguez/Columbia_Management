@@ -91,5 +91,134 @@ if (hungerLevel){
   console.log('its not lunch time')
 }; 
 
+let students = ["Juan", "Kim", "Sam", "Mattie", "Karla", "Briana"]
+
+// console.log('the total number of students is '+ students.length)
+
+// console.log('Welcome to class '+ students[0]);
+// console.log('Welcome to class '+ students[1]);
+// console.log('Welcome to class '+ students[2]);
+// console.log('Welcome to class '+ students[3]);
+// console.log('Welcome to class '+ students[4]);
+// console.log('Welcome to class '+ students[5]);    
+
+students[0]= 'Mark'
+console.log(students);
+
+if (students[0] === 'Juan' ) {
+ console.log (students[0] + 'is still in class')
+} else {
+  console.log("is a new student by the name of ... " + students[0])
+}
+
+// for (let i = 0; i < array.length; i++) {
+//   const element = array[i];
+  
+// }
+
+// for (let i = 0; i < students.length; i++) {
+//  console.log('you are my student named '+ students[i])
+// }
+
+// iterator let i = 0  --> its a variable that starts at 0 + iterator 
+// condition i < 6 ---> as long as the value of i is less than 6 pls run the array
+// incrementor i ++  --> add one to the value of i === i = i + 1
+for (let i = 0; i < 6; i++) {
+  console.log("this worked, thanks too ..." + students[i])
+}; 
+
+let array = ["fun", "happy", "joy", "springles"]
+
+// for ( let i = 0; i < array.length; i++ ) {
+//  console.log('I find joy in my love for' + array[i]); 
+// }
+
+// for (let i = 0; i < array.length; i++) {
+//   const element = 'I work to always be ' + array[i];
+//   console.log(element);
+// }
+
+for (let i = 0; i < array.length ; i++) {
+  console.log(array[i])
+}
+
+let classmates = ['Kim', 'Juan', 'Korto', 'Briana', 'Karla'];
+
+// for (let i = 0; i < classmates.length; i++){
+//   console.log('Great to see you ' + classmates[i] + '!')
+// } 
+
+// classmates()
 
 
+  classmates.slice(2, -1)
+  console.log(classmates)
+
+  var count = 0;
+  while(count<students.length){
+    console.log('great to see you' + students[count] + '!');
+    count++;
+  }
+
+
+  function declareHello(myName, funStuff){
+    console.log('Hello, '+ myName + '! ' + funStuff + ', ' + 'I am a function declaration' + '.');
+    console.log('----------------------------------------');
+    //Return stops the execution of a function
+    return;
+  }
+//Function must be called to execute
+  declareHello('Kimberly', 'Enjoy')
+
+  //function expression
+
+  let expressHello = function(myName){
+    console.log('Hello,' + myName + ','+ ' I am function expression');
+    console.log("------------------------------");
+    return;
+  };
+
+  expressHello(' Kim');
+  expressHello(' Porto');
+  expressHello(' Juan');
+
+function declarationHelloAgain(x,y,z ) {
+  console.log("Hello, my parameter's value are " + x + ", "+ y + " ,and " + z);
+  return;
+}
+
+declarationHelloAgain(7, "Hello", true);
+
+
+// using function declaration
+function isEqual(x, y) {
+if (x === y){
+console.log('They are equal in value and type');
+} else if(x == y) {
+console.log('They are equal in value but not type');
+} else {
+console.log('They are not equal');
+}
+return;
+}
+
+isEqual(10,10); 
+
+isEqual('10', 10);
+
+
+// Using function expression
+let isEqualTakeTwo = function(x,y){
+ if (x === y) {
+   console.log('They are equal in value and type')
+ } else if (x == y) {
+  console.log('they are equal in value but not type')
+ } else {
+   console.log('they are not equal')
+ }
+ return;
+}
+
+isEqualTakeTwo(10,10);
+isEqualTakeTwo('10',10);
+isEqualTakeTwo(9 , 10);
