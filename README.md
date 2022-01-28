@@ -18,12 +18,13 @@ To manage rental listings for private owners
 
 * Clone the repo (please reference the links below).
 ```md 
+git@github.com:Kimberly-Rodriguez/Columbia_Management.git
 
 
 ```
 
 
-[Site link]()
+[Site link](https://kimberly-rodriguez.github.io/Columbia_Management/)
 
 ## Tools
 
